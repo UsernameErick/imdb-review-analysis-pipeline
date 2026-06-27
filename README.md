@@ -23,7 +23,9 @@ The trained model is saved in the main folder.
 
 # Author Erick
 Data analysis and machine learning portfolio project
-Focus areas: 
+
+Focus areas:
+
 -Data analysis
 -Machine learning
 -Pipeline
