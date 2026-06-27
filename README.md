@@ -26,7 +26,7 @@ Data analysis and machine learning portfolio project
 
 Focus areas:
 
--Data analysis
--Machine learning
--Pipeline
+-Data analysis  
+-Machine learning  
+-Pipeline  
 -NLP
