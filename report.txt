@@ -1,0 +1,125 @@
+              precision    recall  f1-score   support
+
+           0       0.90      0.89      0.89      5000
+           1       0.89      0.90      0.89      5000
+
+    accuracy                           0.89     10000
+   macro avg       0.89      0.89      0.89     10000
+weighted avg       0.89      0.89      0.89     10000
+
+5000
+           word      coef
+1980      great  7.594534
+1575  excellent  7.109043
+3237    perfect  5.473484
+475        best  5.033180
+215     amazing  4.920472
+4933  wonderful  4.748023
+2684      loved  4.603640
+2127  hilarious  4.346486
+1507    enjoyed  4.324357
+591   brilliant  4.225460
+          word       coef
+4958     worst -10.645267
+387        bad  -8.002199
+4820     waste  -7.953500
+377      awful  -7.907158
+550     boring  -6.798545
+4424  terrible  -5.995005
+3338      poor  -5.963980
+3063   nothing  -5.281680
+1405      dull  -5.206045
+3339    poorly  -5.097176
+('positive', 0.943469674606553)
+Fitting 3 folds for each of 27 candidates, totalling 81 fits
+[CV] END model__C=0.1, tfidf__max_features=5000, tfidf__min_df=2; total time=   6.5s
+[CV] END model__C=0.1, tfidf__max_features=5000, tfidf__min_df=2; total time=   6.7s
+[CV] END model__C=0.1, tfidf__max_features=5000, tfidf__min_df=2; total time=   6.6s
+[CV] END model__C=0.1, tfidf__max_features=5000, tfidf__min_df=5; total time=   6.8s
+[CV] END model__C=0.1, tfidf__max_features=5000, tfidf__min_df=5; total time=   6.7s
+[CV] END model__C=0.1, tfidf__max_features=5000, tfidf__min_df=5; total time=   6.6s
+[CV] END model__C=0.1, tfidf__max_features=5000, tfidf__min_df=10; total time=   6.7s
+[CV] END model__C=0.1, tfidf__max_features=5000, tfidf__min_df=10; total time=   6.7s
+[CV] END model__C=0.1, tfidf__max_features=5000, tfidf__min_df=10; total time=   6.7s
+[CV] END model__C=0.1, tfidf__max_features=10000, tfidf__min_df=2; total time=   6.7s
+[CV] END model__C=0.1, tfidf__max_features=10000, tfidf__min_df=2; total time=   6.9s
+[CV] END model__C=0.1, tfidf__max_features=10000, tfidf__min_df=2; total time=   6.8s
+[CV] END model__C=0.1, tfidf__max_features=10000, tfidf__min_df=5; total time=   6.7s
+[CV] END model__C=0.1, tfidf__max_features=10000, tfidf__min_df=5; total time=   6.7s
+[CV] END model__C=0.1, tfidf__max_features=10000, tfidf__min_df=5; total time=   7.1s
+[CV] END model__C=0.1, tfidf__max_features=10000, tfidf__min_df=10; total time=   7.0s
+[CV] END model__C=0.1, tfidf__max_features=10000, tfidf__min_df=10; total time=   7.1s
+[CV] END model__C=0.1, tfidf__max_features=10000, tfidf__min_df=10; total time=   7.1s
+[CV] END model__C=0.1, tfidf__max_features=20000, tfidf__min_df=2; total time=   7.1s
+[CV] END model__C=0.1, tfidf__max_features=20000, tfidf__min_df=2; total time=   7.3s
+[CV] END model__C=0.1, tfidf__max_features=20000, tfidf__min_df=2; total time=   7.2s
+[CV] END model__C=0.1, tfidf__max_features=20000, tfidf__min_df=5; total time=   7.3s
+[CV] END model__C=0.1, tfidf__max_features=20000, tfidf__min_df=5; total time=   7.2s
+[CV] END model__C=0.1, tfidf__max_features=20000, tfidf__min_df=5; total time=   7.1s
+[CV] END model__C=0.1, tfidf__max_features=20000, tfidf__min_df=10; total time=   6.8s
+[CV] END model__C=0.1, tfidf__max_features=20000, tfidf__min_df=10; total time=   7.0s
+[CV] END model__C=0.1, tfidf__max_features=20000, tfidf__min_df=10; total time=   7.0s
+[CV] END model__C=1, tfidf__max_features=5000, tfidf__min_df=2; total time=   7.7s
+[CV] END model__C=1, tfidf__max_features=5000, tfidf__min_df=2; total time=   7.4s
+[CV] END model__C=1, tfidf__max_features=5000, tfidf__min_df=2; total time=   7.6s
+[CV] END model__C=1, tfidf__max_features=5000, tfidf__min_df=5; total time=   7.4s
+[CV] END model__C=1, tfidf__max_features=5000, tfidf__min_df=5; total time=   7.2s
+[CV] END model__C=1, tfidf__max_features=5000, tfidf__min_df=5; total time=   7.4s
+[CV] END model__C=1, tfidf__max_features=5000, tfidf__min_df=10; total time=   7.3s
+[CV] END model__C=1, tfidf__max_features=5000, tfidf__min_df=10; total time=   7.7s
+[CV] END model__C=1, tfidf__max_features=5000, tfidf__min_df=10; total time=   7.8s
+[CV] END model__C=1, tfidf__max_features=10000, tfidf__min_df=2; total time=   7.7s
+[CV] END model__C=1, tfidf__max_features=10000, tfidf__min_df=2; total time=   7.4s
+[CV] END model__C=1, tfidf__max_features=10000, tfidf__min_df=2; total time=   7.5s
+[CV] END model__C=1, tfidf__max_features=10000, tfidf__min_df=5; total time=   7.2s
+[CV] END model__C=1, tfidf__max_features=10000, tfidf__min_df=5; total time=   7.6s
+[CV] END model__C=1, tfidf__max_features=10000, tfidf__min_df=5; total time=   7.7s
+[CV] END model__C=1, tfidf__max_features=10000, tfidf__min_df=10; total time=   7.2s
+[CV] END model__C=1, tfidf__max_features=10000, tfidf__min_df=10; total time=   7.0s
+[CV] END model__C=1, tfidf__max_features=10000, tfidf__min_df=10; total time=   6.9s
+[CV] END model__C=1, tfidf__max_features=20000, tfidf__min_df=2; total time=   7.7s
+[CV] END model__C=1, tfidf__max_features=20000, tfidf__min_df=2; total time=   7.8s
+[CV] END model__C=1, tfidf__max_features=20000, tfidf__min_df=2; total time=   7.7s
+[CV] END model__C=1, tfidf__max_features=20000, tfidf__min_df=5; total time=   7.4s
+[CV] END model__C=1, tfidf__max_features=20000, tfidf__min_df=5; total time=   7.8s
+[CV] END model__C=1, tfidf__max_features=20000, tfidf__min_df=5; total time=   7.6s
+[CV] END model__C=1, tfidf__max_features=20000, tfidf__min_df=10; total time=   7.5s
+[CV] END model__C=1, tfidf__max_features=20000, tfidf__min_df=10; total time=   8.0s
+[CV] END model__C=1, tfidf__max_features=20000, tfidf__min_df=10; total time=   7.5s
+[CV] END model__C=5, tfidf__max_features=5000, tfidf__min_df=2; total time=   8.0s
+[CV] END model__C=5, tfidf__max_features=5000, tfidf__min_df=2; total time=   7.7s
+[CV] END model__C=5, tfidf__max_features=5000, tfidf__min_df=2; total time=   8.4s
+[CV] END model__C=5, tfidf__max_features=5000, tfidf__min_df=5; total time=   7.9s
+[CV] END model__C=5, tfidf__max_features=5000, tfidf__min_df=5; total time=   7.7s
+[CV] END model__C=5, tfidf__max_features=5000, tfidf__min_df=5; total time=   8.6s
+[CV] END model__C=5, tfidf__max_features=5000, tfidf__min_df=10; total time=   7.6s
+[CV] END model__C=5, tfidf__max_features=5000, tfidf__min_df=10; total time=   8.4s
+[CV] END model__C=5, tfidf__max_features=5000, tfidf__min_df=10; total time=   8.3s
+[CV] END model__C=5, tfidf__max_features=10000, tfidf__min_df=2; total time=   8.5s
+[CV] END model__C=5, tfidf__max_features=10000, tfidf__min_df=2; total time=   9.3s
+[CV] END model__C=5, tfidf__max_features=10000, tfidf__min_df=2; total time=   9.1s
+[CV] END model__C=5, tfidf__max_features=10000, tfidf__min_df=5; total time=   9.3s
+[CV] END model__C=5, tfidf__max_features=10000, tfidf__min_df=5; total time=   8.8s
+[CV] END model__C=5, tfidf__max_features=10000, tfidf__min_df=5; total time=   9.4s
+[CV] END model__C=5, tfidf__max_features=10000, tfidf__min_df=10; total time=   8.8s
+[CV] END model__C=5, tfidf__max_features=10000, tfidf__min_df=10; total time=   9.7s
+[CV] END model__C=5, tfidf__max_features=10000, tfidf__min_df=10; total time=   9.5s
+[CV] END model__C=5, tfidf__max_features=20000, tfidf__min_df=2; total time=  10.2s
+[CV] END model__C=5, tfidf__max_features=20000, tfidf__min_df=2; total time=   9.6s
+[CV] END model__C=5, tfidf__max_features=20000, tfidf__min_df=2; total time=  11.6s
+[CV] END model__C=5, tfidf__max_features=20000, tfidf__min_df=5; total time=  10.9s
+[CV] END model__C=5, tfidf__max_features=20000, tfidf__min_df=5; total time=  12.6s
+[CV] END model__C=5, tfidf__max_features=20000, tfidf__min_df=5; total time=  12.7s
+[CV] END model__C=5, tfidf__max_features=20000, tfidf__min_df=10; total time=   9.5s
+[CV] END model__C=5, tfidf__max_features=20000, tfidf__min_df=10; total time=  11.4s
+[CV] END model__C=5, tfidf__max_features=20000, tfidf__min_df=10; total time=   9.3s
+{'model__C': 5, 'tfidf__max_features': 20000, 'tfidf__min_df': 2}
+0.8953611624841207
+              precision    recall  f1-score   support
+
+           0       0.91      0.90      0.90      5000
+           1       0.90      0.91      0.90      5000
+
+    accuracy                           0.90     10000
+   macro avg       0.90      0.90      0.90     10000
+weighted avg       0.90      0.90      0.90     10000
